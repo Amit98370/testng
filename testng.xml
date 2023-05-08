@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FaceBook_Demo" >
+  <test name="login" enabled="false">
+    <classes>
+      <class name="Test_page.Login_test"/>
+    </classes>
+  </test> 
+  
+  <test name="Send_message_page" enabled="false">
+    <classes>
+      <class name="Test_page.Send_message_test"/>
+    </classes>
+  </test> 
+  
+  <test name="Createpost_page" enabled="true">
+    <classes>
+      <class name="Test_page.Createpost_test"/>
+    </classes>
+  </test> 
+  
+  <!-- Test -->
+</suite> <!-- Suite -->
